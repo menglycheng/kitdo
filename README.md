@@ -1,5 +1,5 @@
 # dodo
-it is create odoo module cli 
+dodo is use to create odoo module cli 
 
 ## Installation
 ```pip install dodo```

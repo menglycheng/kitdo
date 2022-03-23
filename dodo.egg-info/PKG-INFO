@@ -2,14 +2,29 @@ Metadata-Version: 2.1
 Name: dodo
 Version: 0.0.1
 Summary: UNKNOWN
+Home-page: https://github.com/menglycheng/dodo
 Author: mengly
 Author-email: menglycheng2@gmail.com
-License: UNKNOWN
-Keywords: odoo,odoo module,create odoo module,
+License: MIT
+Keywords: odoo,odoo module,create odoo module
 Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
 Classifier: Intended Audience :: Developers
 Classifier: Programming Language :: Python :: 3
 Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+License-File: LICENSE
 
-UNKNOWN
+# dodo
+it is create odoo module cli 
+
+## Installation
+```pip install dodo```
+
+
+## License
+
+© 2022 Mengly
+
+This repository is licensed under the MIT license. See LICENSE for details.
 
