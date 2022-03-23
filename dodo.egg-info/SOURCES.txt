@@ -1,0 +1,11 @@
+README.md
+setup.py
+dodo/__init__.py
+dodo/__main__.py
+dodo/test.py
+dodo.egg-info/PKG-INFO
+dodo.egg-info/SOURCES.txt
+dodo.egg-info/dependency_links.txt
+dodo.egg-info/entry_points.txt
+dodo.egg-info/requires.txt
+dodo.egg-info/top_level.txt
