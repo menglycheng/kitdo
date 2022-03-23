@@ -1,9 +1,15 @@
 Metadata-Version: 2.1
 Name: dodo
-Version: 0.1.0
+Version: 0.0.1
 Summary: UNKNOWN
+Author: mengly
+Author-email: menglycheng2@gmail.com
 License: UNKNOWN
+Keywords: odoo,odoo module,create odoo module,
 Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
 
 UNKNOWN
 
