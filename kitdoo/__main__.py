@@ -2,7 +2,7 @@ import sys
 import os
 from tarfile import NUL 
 import click
-from dodo.manifestTb import manifestFile
+from kitdoo.manifestTb import manifestFile
 # from .classmodule import MyClass
 # from .funcmodule import my_function
 # author = input("author : ")

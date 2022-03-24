@@ -1,0 +1,31 @@
+name: kitdoo
+
+on: 
+  push:
+    branches: 
+    - master
+  pull_request:
+    branches:
+    - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: action/checkout@v2
+      - uses: action/setup-python@v2
+        with:
+          python-version: '3.x'
+      - run: pip install .
+      - run: python -m unittest discover -s tests -p '*_test.py'
+  relase:
+    needs: [build]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: action/checkout@v2
+      - uses: action/setup-python@v2
+        with:
+          python-version: '3.x'
+      - uses: casperdcl/deploy-pypi@v2 
+        with:
+          password: ${{secrets.PYPI_TOKEN}}
+          pip: wheel -w dist/ --no-deps .
