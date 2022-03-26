@@ -14,17 +14,17 @@ DESCRIPTION = ''
 # The text of the README file
 README = (HERE / "README.md").read_text()
 setup(
-    name = 'kitdoo',
-    version = '0.0.2',
+    name = 'kitdo',
+    version = '0.0.1',
     author= "mengly",
     author_email='menglycheng2@gmail.com',
     packages = find_packages(),
     description= DESCRIPTION,
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/menglycheng/dodo",
+    url="https://github.com/menglycheng/kitdo",
     include_package_data=True,
-    install_requires = ['click==7.1.2'],
+    install_requires = ['click==7.1.2','twine'],
     keywords= ['odoo', 'odoo module', 'create odoo module'],
      license="MIT",
     classifiers= [
@@ -35,7 +35,7 @@ setup(
     ],
      entry_points = {
         'console_scripts': [
-            'kitdoo = kitdoo.__main__:main'
+            'kitdo = kitdo.__main__:main'
         ]
     }
  )

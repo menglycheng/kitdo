@@ -1,9 +1,12 @@
-# dodo
-dodo is use to create odoo module cli 
+# kitdo
+kitdo is a cli command which is use to create odoo module.
 
 ## Installation
-```pip install dodo```
+```pip install kitdo```
 
+## How to use ? 
+- Step1: install this cli into your odoo virtual environment.
+- Step2: ``` kitdo -name <your module name > ```
 
 ## License
 
